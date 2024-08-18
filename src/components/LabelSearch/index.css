@@ -1,0 +1,33 @@
+.label-search {
+  position: relative;
+  width: 100%;
+}
+
+.label-search input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.label-search .dropdown {
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+.label-search .dropdown li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.label-search .dropdown li:hover {
+  background-color: #f0f0f0;
+}

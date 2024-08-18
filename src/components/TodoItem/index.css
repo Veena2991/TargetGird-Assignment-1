@@ -1,0 +1,35 @@
+.todo-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.todo-item p {
+  margin: 0 0 8px;
+}
+
+.todo-item .labels {
+  margin-bottom: 8px;
+}
+
+.todo-item .label {
+  display: inline-block;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.todo-item .edit-mode input,
+.todo-item .edit-mode select {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.todo-item .edit-mode button,
+.todo-item .view-mode button {
+  margin-right: 8px;
+}
